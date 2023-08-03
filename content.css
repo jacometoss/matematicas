@@ -30,8 +30,7 @@ a{color:#65adc5}
 #header,#emptyHeader{text-align:left;height:auto!important;height:2em;min-height:2em;padding:30px 10px 20px 20px;font-size:1.6em;color:#FFF;
 letter-spacing:1px;font-weight:normal;
 background:#6B6866;
-text-shadow:1px 1px 1px #333;letter-spacing:.5px;border-radius:2px;
-text-transform:uppercase} /* Header is also in single page */
+text-shadow:1px 1px 1px #333;letter-spacing:.5px;border-radius:2px} /* Header is also in single page */
 #headerContent a{color:#FFF} /* See myTheme.rftTitle in _cedec_js.js */
 #header h1{margin:0;font-size:1em}
 #nodeDecoration{border-radius:2px;text-align:left;padding:1em 20px;margin-bottom:2em;
