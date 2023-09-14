@@ -6,10 +6,12 @@
   <unicode value="Matemáticas"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
+  <string role="key" value="_addExeLink"></string>
+  <bool value="1"></bool>
   <string role="key" value="_addPagination"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_addSearchBox"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_author"></string>
   <unicode value="Marco Polo Jácome Toss"></unicode>
   <string role="key" value="_backgroundImg"></string>
@@ -75,19 +77,21 @@
   <string role="key" value="_lang"></string>
   <unicode value="es"></unicode>
   <string role="key" value="_learningResourceType"></string>
-  <unicode value=""></unicode>
+  <unicode value="guided reading"></unicode>
   <string role="key" value="_levelNames"></string>
   <list>
    <unicode value="Tema"></unicode>
    <unicode value="Sección"></unicode>
    <unicode value="Unidad"></unicode>
   </list>
+  <string role="key" value="_loadMathEngine"></string>
+  <bool value="1"></bool>
   <string role="key" value="_name"></string>
   <unicode value="Matemticas"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="4"></int>
+  <int value="8"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="3"></int>
+  <int value="5"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
@@ -100,7 +104,7 @@
       <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Ecuación cuadrátca"></unicode>
+        <unicode value="Matemáticas de 3er Grado"></unicode>
         <string role="key" value="_attributes"></string>
         <list>
          <tuple>
@@ -170,35 +174,35 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;La historia de la ecuación cuadrática se remonta a la antigüedad, donde diferentes civilizaciones hicieron notables contribuciones en el campo de las matemáticas. Se cree que los antiguos babilonios, que vivieron alrededor del 2000 a.C., ya estaban familiarizados con algunas soluciones de ecuaciones cuadráticas. Sin embargo, su enfoque estaba más orientado hacia problemas geométricos prácticos, como encontrar áreas y volúmenes.&lt;/p&gt;
-&lt;p&gt;En la antigua Grecia, los matemáticos como Euclides (siglo IV a.C.) y Diofanto (siglo III d.C.) comenzaron a explorar las ecuaciones cuadráticas de una manera más sistemática, aunque su trabajo estaba más enfocado en la teoría de números y en la resolución de ecuaciones de forma general.&lt;/p&gt;
-&lt;figure class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 250px;&quot;&gt;&lt;img src=&quot;https://th.bing.com/th/id/R.b31dcfc9c6614a42bc78435a96f470d7?rik=YFiT6hMFkTsgag&amp;amp;pid=ImgRaw&amp;amp;r=0&quot; alt=&quot;Euclides&quot; title=&quot;Euclides&quot; width=&quot;250&quot; height=&quot;385&quot; /&gt;
-&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;span class=&quot;title&quot;&gt;&lt;em&gt;Figura 1 Euclides&lt;/em&gt;&lt;/span&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;En la Edad Media, los matemáticos árabes y persas realizaron avances significativos en el estudio de las ecuaciones cuadráticas y cúbicas. Un nombre destacado es Al-Khwarizmi, un matemático persa del siglo IX conocido como el &quot;padre del álgebra&quot;. En su libro &quot;Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala&quot; (El libro compendio sobre cálculo por completación y reducción), presentó el método general para resolver ecuaciones cuadráticas, estableciendo la base para futuras investigaciones.&lt;/p&gt;
-&lt;p&gt;Durante el Renacimiento europeo, en los siglos XV y XVI, matemáticos como François Viète, Gerolamo Cardano y Niccolò Tartaglia continuaron avanzando en el estudio de las ecuaciones cúbicas y cuárticas, que incluían las ecuaciones cuadráticas. Específicamente, Cardano y Tartaglia descubrieron el método para resolver ecuaciones de tercer grado (cúbicas) y encontraron las soluciones de ciertas ecuaciones cuadráticas.&lt;/p&gt;
-&lt;p&gt;Posteriormente, en el siglo XVII, René Descartes, un matemático y filósofo francés, formalizó la notación algebraica y popularizó el uso de letras para representar incógnitas, lo que simplificó la manipulación de ecuaciones, incluyendo las cuadráticas.&lt;/p&gt;
-&lt;p&gt;En el siglo XVIII, matemáticos como Euler, Lagrange y Gauss continuaron avanzando en el estudio de las ecuaciones cuadráticas y su clasificación, lo que contribuyó en gran medida al desarrollo de la teoría algebraica.&lt;/p&gt;
-&lt;p&gt;Desde entonces, el estudio de las ecuaciones cuadráticas ha seguido evolucionando y expandiéndose, convirtiéndose en una herramienta esencial en diversas áreas de la ciencia, la ingeniería y las matemáticas. La ecuación cuadrática sigue siendo una parte fundamental del currículo matemático y continúa siendo una pieza clave en la comprensión y resolución de problemas en la actualidad.&lt;/p&gt;
-&lt;h2&gt;Fórmula para la ecuación cuadrática&lt;/h2&gt;
-&lt;p&gt;La ecuación cuadrática es una expresión algebraica de la forma:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;ax^{2}+bx+c = 0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Donde &quot;a&quot;, &quot;b&quot; y &quot;c&quot; son coeficientes y &quot;x&quot; es la incógnita (variable). &quot;a&quot; debe ser diferente de cero, ya que de lo contrario, la ecuación dejaría de ser cuadrática y se convertiría en una ecuación lineal.&lt;/p&gt;
-&lt;p&gt;El término &quot;cuadrática&quot; se refiere al término de grado 2 (x^2) presente en la ecuación. Esta forma de ecuación es de gran importancia en matemáticas y ciencias, ya que se utiliza para resolver diversos problemas en diversas áreas, como física, ingeniería, economía, entre otras.&lt;/p&gt;
-&lt;p&gt;Para resolver una ecuación cuadrática, hay varias técnicas, siendo las más comunes el método de factorización, la fórmula general y la completación de cuadrados. La fórmula general para encontrar las raíces de la ecuación es:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x = \frac{-b\pm\sqrt{b^{2}-4ac}}{2a}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;...&lt;/p&gt;
-&lt;h2&gt;Naturaleza de las raíces&lt;/h2&gt;
-&lt;p&gt;El carácter de las raíces de la ecuación de segundo grado está determinado por el discriminante.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;b^{2}-4ac&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Cuando las raíces involucran a la unidad imaginaria &quot;i&quot;, se dice que las raíces no son reales. Suponiendo que a, b, y c son números reales, entonces&lt;/p&gt;
-&lt;p&gt;Si el discriminante es mayor a cero, las raíces son reales y distintas.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;b^{2}-4ac &amp;gt; 0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Si el discriminante es igual a cero las raíces son reales e iguales.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;b^{2}-4ac = 0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Si el discriminante es menor que cero, las raíces no son reales.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;b^{2}-4ac &amp;lt; 0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h2&gt;Contenido&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;Primer Trimestre &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;Números Reales y Operaciones Fundamentales&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;ul style=&quot;list-style-type: square;&quot;&gt;
+&lt;li&gt;Tema 01: Números reales y la recta numérica.&lt;/li&gt;
+&lt;li&gt;Tema 02:  Propiedades de la suma y multiplicación de los números reales.&lt;/li&gt;
+&lt;li&gt;Tema 03: Expresión fraccionaria y decimal de un número racional.&lt;/li&gt;
+&lt;li&gt;Tema 05: Operaciones con fracciones.&lt;/li&gt;
+&lt;li&gt;Tema 06: Propiedades de las relaciones de orden.&lt;/li&gt;
+&lt;li&gt;Tema 06: Leyes de los signos.&lt;/li&gt;
+&lt;li&gt;Tema 07: Exponentes y potencias.&lt;/li&gt;
+&lt;li&gt;Tema 08: Radicales.&lt;/li&gt;
+&lt;li&gt;Tema 09: Números primos.&lt;/li&gt;
+&lt;li&gt;Tema 10: Criterios de divisibilidad.&lt;/li&gt;
+&lt;li&gt;Tema 11: mcm y MCD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ecuaciones&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tema 12: Ecuación de primer grado con una incógnita.&lt;/li&gt;
+&lt;li&gt;Tema 13: Inecuaciones.&lt;/li&gt;
+&lt;li&gt;Tema 14: Modelado y solución de ecuaciones de 2do grado.&lt;/li&gt;
+&lt;li&gt;Tema 15: Representación gráfica y análisis de las ecuaciones cuadráticas.&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
            <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -221,7 +225,7 @@
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
-           <none></none>
+           <reference key="3"></reference>
           </dictionary>
          </instance>
         </list>
@@ -259,7 +263,7 @@
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:Home"></string>
+     <string value="exe-node:Inicio"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="children"></string>
@@ -267,13 +271,13 @@
       <instance class="exe.engine.node.Node" reference="7">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Deducción de la fórmula"></unicode>
+        <unicode value="Historia"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="5">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="¿Cómo se obtiene la ecuación cuadrática?"></unicode>
+           <unicode value="Ecuación de 2do Grado"></unicode>
            <string role="key" value="_attributes"></string>
            <list>
             <tuple>
@@ -334,7 +338,7 @@
             <instance class="exe.engine.field.TextAreaField" reference="6">
              <dictionary>
               <string role="key" value="_id"></string>
-              <unicode value="122_2"></unicode>
+              <unicode value="121_2"></unicode>
               <string role="key" value="_idevice"></string>
               <reference key="5"></reference>
               <string role="key" value="_instruc"></string>
@@ -344,30 +348,34 @@
               <string role="key" value="anchor_names"></string>
               <list></list>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;La ecuación polinómica de segundo grado tiene la forma siguiente:&lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;La historia de la ecuación cuadrática se remonta a la antigüedad, donde diferentes civilizaciones hicieron notables contribuciones en el campo de las matemáticas. Se cree que los antiguos babilonios, que vivieron alrededor del 2000 a.C., ya estaban familiarizados con algunas soluciones de ecuaciones cuadráticas. Sin embargo, su enfoque estaba más orientado hacia problemas geométricos prácticos, como encontrar áreas y volúmenes.&lt;/p&gt;
+&lt;p&gt;En la antigua Grecia, los matemáticos como Euclides (siglo IV a.C.) y Diofanto (siglo III d.C.) comenzaron a explorar las ecuaciones cuadráticas de una manera más sistemática, aunque su trabajo estaba más enfocado en la teoría de números y en la resolución de ecuaciones de forma general.&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 250px;&quot;&gt;&lt;img src=&quot;https://th.bing.com/th/id/R.b31dcfc9c6614a42bc78435a96f470d7?rik=YFiT6hMFkTsgag&amp;amp;pid=ImgRaw&amp;amp;r=0&quot; alt=&quot;Euclides&quot; title=&quot;Euclides&quot; width=&quot;250&quot; height=&quot;385&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;span class=&quot;title&quot;&gt;&lt;em&gt;Figura 1 Euclides&lt;/em&gt;&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;En la Edad Media, los matemáticos árabes y persas realizaron avances significativos en el estudio de las ecuaciones cuadráticas y cúbicas. Un nombre destacado es Al-Khwarizmi, un matemático persa del siglo IX conocido como el &quot;padre del álgebra&quot;. En su libro &quot;Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala&quot; (El libro compendio sobre cálculo por completación y reducción), presentó el método general para resolver ecuaciones cuadráticas, estableciendo la base para futuras investigaciones.&lt;/p&gt;
+&lt;p&gt;Durante el Renacimiento europeo, en los siglos XV y XVI, matemáticos como François Viète, Gerolamo Cardano y Niccolò Tartaglia continuaron avanzando en el estudio de las ecuaciones cúbicas y cuárticas, que incluían las ecuaciones cuadráticas. Específicamente, Cardano y Tartaglia descubrieron el método para resolver ecuaciones de tercer grado (cúbicas) y encontraron las soluciones de ciertas ecuaciones cuadráticas.&lt;/p&gt;
+&lt;p&gt;Posteriormente, en el siglo XVII, René Descartes, un matemático y filósofo francés, formalizó la notación algebraica y popularizó el uso de letras para representar incógnitas, lo que simplificó la manipulación de ecuaciones, incluyendo las cuadráticas.&lt;/p&gt;
+&lt;p&gt;En el siglo XVIII, matemáticos como Euler, Lagrange y Gauss continuaron avanzando en el estudio de las ecuaciones cuadráticas y su clasificación, lo que contribuyó en gran medida al desarrollo de la teoría algebraica.&lt;/p&gt;
+&lt;p&gt;Desde entonces, el estudio de las ecuaciones cuadráticas ha seguido evolucionando y expandiéndose, convirtiéndose en una herramienta esencial en diversas áreas de la ciencia, la ingeniería y las matemáticas. La ecuación cuadrática sigue siendo una parte fundamental del currículo matemático y continúa siendo una pieza clave en la comprensión y resolución de problemas en la actualidad.&lt;/p&gt;
+&lt;h2&gt;Fórmula para la ecuación cuadrática&lt;/h2&gt;
+&lt;p&gt;La ecuación cuadrática es una expresión algebraica de la forma:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;ax^{2}+bx+c = 0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 1.&lt;/strong&gt; Se divide por el coeficiente &lt;strong&gt;a&lt;/strong&gt; toda la ecuación.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x^{2}+\frac{bx}{a}+y^{2}=-\frac{c}{a}+y^{2}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 2&lt;/strong&gt;. Antes de continuar se debe considerar el cuadrado de un binomio de la forma siguiente:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\left ( x+y \right )^{2}=x^{2}+2xy+y^{2}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 3&lt;/strong&gt;. Se completa el trinomio tanto del lado izquierdo y derecho de la igualdad.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x^{2}+\frac{bx}{a}+y^{2}=-\frac{c}{a}+y^{2}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 4&lt;/strong&gt;. Se sustituye el cuadrado de un binomio en el lado izquierdo de la igualdad.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\left ( x+y\right )^{2} = -\frac{c}{a}+y^{2}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 5&lt;/strong&gt;. Se iguala las partes del trinomio obtenido con el cuadrado de un binomio.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\frac{bx}{a}=2xy&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 6.&lt;/strong&gt; Se despeja la variable &quot;y&quot;.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;y = \frac{b}{2a}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 7&lt;/strong&gt;. El resultado del paso 6 se sustituye en el paso 4.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\left (x+ \frac{b}{2a}\right )^{2} = -\frac{c}{a}+-\frac{b^{2}}{4a^{2}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 8&lt;/strong&gt;. Se simplifica el lado derecho de la igualdad del paso 6 usando el MCM.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\left (x+ \frac{b}{2a}\right )^{2} = -\frac{c}{a}+-\frac{b^{2}}{4a^{2}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x =-\frac{b}{2a}\pm \sqrt{\frac{-4ac+b^{2}}{4a^{2}}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 9.&lt;/strong&gt; Se despeja la variable &quot;x&quot; del lado izquierdo de la igualdad.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x =-\frac{b}{2a}\pm \sqrt{\frac{-4ac+b^{2}}{4a^{2}}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paso 10.&lt;/strong&gt; Se simplifica el paso 9.&lt;/p&gt;
+&lt;p&gt;Donde &quot;a&quot;, &quot;b&quot; y &quot;c&quot; son coeficientes y &quot;x&quot; es la incógnita (variable). &quot;a&quot; debe ser diferente de cero, ya que de lo contrario, la ecuación dejaría de ser cuadrática y se convertiría en una ecuación lineal.&lt;/p&gt;
+&lt;p&gt;El término &quot;cuadrática&quot; se refiere al término de grado 2 (x^2) presente en la ecuación. Esta forma de ecuación es de gran importancia en matemáticas y ciencias, ya que se utiliza para resolver diversos problemas en diversas áreas, como física, ingeniería, economía, entre otras.&lt;/p&gt;
+&lt;p&gt;Para resolver una ecuación cuadrática, hay varias técnicas, siendo las más comunes el método de factorización, la fórmula general y la completación de cuadrados. La fórmula general para encontrar las raíces de la ecuación es:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x = \frac{-b\pm\sqrt{b^{2}-4ac}}{2a}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;...&lt;/p&gt;
+&lt;h2&gt;Naturaleza de las raíces&lt;/h2&gt;
+&lt;p&gt;El carácter de las raíces de la ecuación de segundo grado está determinado por el discriminante.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;b^{2}-4ac&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Cuando las raíces involucran a la unidad imaginaria &quot;i&quot;, se dice que las raíces no son reales. Suponiendo que a, b, y c son números reales, entonces&lt;/p&gt;
+&lt;p&gt;Si el discriminante es mayor a cero, las raíces son reales y distintas.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;b^{2}-4ac &amp;gt; 0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Si el discriminante es igual a cero las raíces son reales e iguales.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;b^{2}-4ac = 0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Si el discriminante es menor que cero, las raíces no son reales.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;b^{2}-4ac &amp;lt; 0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
               <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -395,9 +403,9 @@
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value="diary"></unicode>
+           <unicode value=""></unicode>
            <string role="key" value="id"></string>
-           <unicode value="2"></unicode>
+           <unicode value="6"></unicode>
            <string role="key" value="ideviceCategory"></string>
            <unicode value="Text and Tasks"></unicode>
            <string role="key" value="lastIdevice"></string>
@@ -420,7 +428,7 @@
          </instance>
         </list>
         <string role="key" value="_id"></string>
-        <unicode value="1"></unicode>
+        <unicode value="3"></unicode>
         <string role="key" value="_package"></string>
         <reference key="4"></reference>
         <string role="key" value="anchor_fields"></string>
@@ -430,7 +438,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Inicio:Deducci%C3%B3n%20de%20la%20f%C3%B3rmula"></string>
+        <string value="exe-node:Inicio:Historia"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -442,13 +450,13 @@
       <instance class="exe.engine.node.Node" reference="10">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Ejercicios resueltos"></unicode>
+        <unicode value="Deducción de la fórmula"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="Aplicando la fórmula de la ecuación de segundo grado"></unicode>
+           <unicode value="¿Cómo se obtiene la ecuación cuadrática?"></unicode>
            <string role="key" value="_attributes"></string>
            <list>
             <tuple>
@@ -509,7 +517,7 @@
             <instance class="exe.engine.field.TextAreaField" reference="9">
              <dictionary>
               <string role="key" value="_id"></string>
-              <unicode value="123_2"></unicode>
+              <unicode value="122_2"></unicode>
               <string role="key" value="_idevice"></string>
               <reference key="8"></reference>
               <string role="key" value="_instruc"></string>
@@ -518,6 +526,185 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;La ecuación polinómica de segundo grado tiene la forma siguiente:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;ax^{2}+bx+c = 0&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 1.&lt;/strong&gt; Se divide por el coeficiente &lt;strong&gt;a&lt;/strong&gt; toda la ecuación.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x^{2}+\frac{bx}{a}+y^{2}=-\frac{c}{a}+y^{2}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 2&lt;/strong&gt;. Antes de continuar se debe considerar el cuadrado de un binomio de la forma siguiente:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\left ( x+y \right )^{2}=x^{2}+2xy+y^{2}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 3&lt;/strong&gt;. Se completa el trinomio tanto del lado izquierdo y derecho de la igualdad.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x^{2}+\frac{bx}{a}+y^{2}=-\frac{c}{a}+y^{2}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 4&lt;/strong&gt;. Se sustituye el cuadrado de un binomio en el lado izquierdo de la igualdad.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\left ( x+y\right )^{2} = -\frac{c}{a}+y^{2}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 5&lt;/strong&gt;. Se iguala las partes del trinomio obtenido con el cuadrado de un binomio.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\frac{bx}{a}=2xy&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 6.&lt;/strong&gt; Se despeja la variable &quot;y&quot;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;y = \frac{b}{2a}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 7&lt;/strong&gt;. El resultado del paso 6 se sustituye en el paso 4.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\left (x+ \frac{b}{2a}\right )^{2} = -\frac{c}{a}+-\frac{b^{2}}{4a^{2}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 8&lt;/strong&gt;. Se simplifica el lado derecho de la igualdad del paso 6 usando el MCM.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;\left (x+ \frac{b}{2a}\right )^{2} = -\frac{c}{a}+-\frac{b^{2}}{4a^{2}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x =-\frac{b}{2a}\pm \sqrt{\frac{-4ac+b^{2}}{4a^{2}}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 9.&lt;/strong&gt; Se despeja la variable &quot;x&quot; del lado izquierdo de la igualdad.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x =-\frac{b}{2a}\pm \sqrt{\frac{-4ac+b^{2}}{4a^{2}}}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paso 10.&lt;/strong&gt; Se simplifica el paso 9.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;exe-math code-only exe-math-engine position-center&quot;&gt;&lt;span class=&quot;exe-math-code&quot;&gt;x = \frac{-b\pm\sqrt{b^{2}-4ac}}{2a}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="9"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="10"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="diary"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="10"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio:Deducci%C3%B3n%20de%20la%20f%C3%B3rmula"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="13">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Ejercicios resueltos"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="11">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Aplicando la fórmula de la ecuación de segundo grado"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="12">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="123_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="11"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h2&gt;Ejemplo 1&lt;/h2&gt;
 &lt;p&gt;Resolver la diferencia de cuadrados siguiente:&lt;/p&gt;
@@ -548,7 +735,7 @@
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="9"></reference>
+                <reference key="12"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -556,7 +743,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="13"></reference>
              </dictionary>
             </instance>
            </list>
@@ -573,7 +760,7 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="10"></reference>
+           <reference key="13"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -605,13 +792,175 @@
         <list></list>
        </dictionary>
       </instance>
+      <instance class="exe.engine.node.Node" reference="16">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tema 01"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="14">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Los números reales y la recta numérica"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="15">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="122_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="14"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;La clasificación de números desempeña un papel esencial en las matemáticas al organizar y categorizar los diferentes tipos de números, desde los naturales hasta los complejos. Esto facilita la comprensión de las propiedades y las aplicaciones de los números, permitiendo a los matemáticos identificar patrones, resolver problemas y comunicarse con precisión. Además, la clasificación numérica tiene amplias aplicaciones en la ciencia y la tecnología, y es fundamental en la enseñanza y el aprendizaje de conceptos matemáticos. En este contexto, exploraremos las categorías principales de números y su importancia en la matemática y la vida cotidiana.&lt;/p&gt;
+&lt;p&gt;Una breve descripción de algunas de las principales categorías de números es:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Números Naturales ():&lt;/strong&gt; Son aquellos números utilizados para contar elementos. Incluyen 1, 2, 3, 4, y así sucesivamente hasta el infinito.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Números Enteros ():&lt;/strong&gt; Los números enteros incluyen todos los números naturales, sus negativos y el cero. En otras palabras, Z = {..., -3, -2, -1, 0, 1, 2, 3, ...}.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Números Racionales ():&lt;/strong&gt; Los números racionales son aquellos que pueden expresarse como una fracción de dos enteros, donde el denominador no es cero. Esto incluye números enteros y fracciones, como 1/2, -3/4, 7, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Números Irracionales ():&lt;/strong&gt; Estos son números reales que no pueden expresarse como una fracción exacta de dos enteros. Ejemplos notables son π (Trascendental) y √2 (Algebraicos). Los números irracionales tienen una expansión decimal infinita no periódica.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Números Reales ():&lt;/strong&gt; La colección más amplia de números, que incluye a todos los números racionales e irracionales. Los números reales se extienden a lo largo de la recta numérica en ambos sentidos, positivo y negativo, y pueden representarse con precisión en una línea continua.&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="15"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <none></none>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="book"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="16"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio:Tema%2001"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
      </list>
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="7"></reference>
-   <unicode role="key" value="2"></unicode>
    <reference key="10"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="13"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="7"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="16"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -622,7 +971,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="10"></reference>
+  <reference key="3"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -661,7 +1010,7 @@
   <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
   <int value="16"></int>
   <string role="key" value="exportMetadataType"></string>
-  <string value="LOMES"></string>
+  <unicode value="LOMES"></unicode>
   <string role="key" value="exportSource"></string>
   <bool value="1"></bool>
   <string role="key" value="footer"></string>
@@ -815,7 +1164,42 @@
         </instance>
        </list>
        <string role="key" value="learningResourceType"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.learningResourceTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.learningResourceTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="narrative text"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="semanticDensity"></string>
        <none></none>
        <string role="key" value="typicalAgeRange"></string>
@@ -959,7 +1343,7 @@
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="11">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="17">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -998,7 +1382,7 @@
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="12">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="18">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -1013,7 +1397,7 @@
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="13">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="19">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -1063,10 +1447,10 @@
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="11"></reference>
+         <reference key="17"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="12"></reference>
+          <reference key="18"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -1074,7 +1458,7 @@
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="13"></reference>
+           <reference key="19"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -1322,7 +1706,42 @@
         </instance>
        </list>
        <string role="key" value="learningResourceType"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.learningResourceTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.learningResourceTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="guided reading"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="semanticDensity"></string>
        <none></none>
        <string role="key" value="typicalAgeRange"></string>
@@ -1466,7 +1885,7 @@
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="14">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="20">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -1505,7 +1924,7 @@
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="15">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="21">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -1520,7 +1939,7 @@
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="16">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="22">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -1570,10 +1989,10 @@
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="14"></reference>
+         <reference key="20"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="15"></reference>
+          <reference key="21"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -1581,7 +2000,7 @@
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="16"></reference>
+           <reference key="22"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
